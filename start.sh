@@ -37,8 +37,7 @@ if ! [[ "${COOKIE}" = "" ]]; then
         --protocol=gp \
         --user="${USER}" \
         --usergroup=gateway:prelogin-cookie \
-        --os=win \
-        --csd-wrapper=/usr/libexec/openconnect/hipreport.sh \
+        --os=linux-64 \
         --passwd-on-stdin \
         --disable-ipv6 \
         --background \
